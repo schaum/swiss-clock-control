@@ -2,15 +2,15 @@
 
 This is a wall clock controller for old Swiss train station clocks
 
-![swiss wall clock Moser-Baer](media/Moser-Baer-Uhr.jpg "Moser-Baer clock")
+<img src="media/Moser-Baer-Uhr.jpg" alt="swiss wall clock Moser-Baer" width="400"/>
 
 Every minute a 24V output is inverted to trigger an SBB-like clock (used by the Swiss railway company), to jump to the next minute and to restart the second hand. There is a functionality to reset the ongoing seconds to 0, and also to manually trigger the jump of the minute hand and to set the local time as quickly as possible.
 
-![minute jump](media/clock-minute.mp4)
+https://github.com/schaum/swiss-clock-control/assets/4143984/d9658beb-b59b-42b7-83d2-0b71d53ebf72
 
 The clock is driven by 230 volt mains voltage. The second hand then takes 58 seconds for a full circle, then it waits 2 seconds for the inverting signal that triggers the jump to the next minute and releases the second hand. The 24 volts trigger input of the clock reacts to an invertion of the voltage. A H-Bridge is used to achieve this behavior and to amplify to 24 volts.
 
-![trigger connector](media/24V_inverter.jpg)
+<img src="media/24V_inverter.jpg" alt="trigger connector" width="400"/>
 
 ## Hardware
 wall clock brand: Moser-Baer Sumiswald (many clocks of this brand work the same way)
@@ -39,4 +39,4 @@ This can be used, once the minute is set, to sync the seconds to the real clock.
 - press and hold the button, wait for more than one second: jump quickly from one to 
 the next seconds to set the time more quickly.
 
-![how to use the button](media/clock-control.mp4)
+https://github.com/schaum/swiss-clock-control/assets/4143984/120be298-0689-4231-aa58-004eab42bafb
