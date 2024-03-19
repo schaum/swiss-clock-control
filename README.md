@@ -34,10 +34,8 @@ The ATtiny25 processor is clocked by a crystal with 3.6864 Mhz, to produce a pre
 3686400 hz / 8 / 1024 / 18 = 25 hz
 
 ## How to use the Button
-- press the button once: Reset the seconds counted by the processor to 0. 
-This can be used, once the minute is set, to sync the seconds to the real clock.
+- press the button once: Reset the seconds counted by the processor to 0. This can be used, once the minute is set, to sync the seconds to the real clock.
 - press the button twice or more within one second: reset the seconds and jump the minute hand for one minute
-- press and hold the button, wait for more than one second: jump quickly from one to 
-the next seconds to set the time quickly.
+- press and hold the button, wait for more than one second: jump quickly from one to the next minute to set the time quickly.
 
 https://github.com/schaum/swiss-clock-control/assets/4143984/120be298-0689-4231-aa58-004eab42bafb
